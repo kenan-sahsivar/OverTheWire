@@ -6,7 +6,7 @@ Helpful note: Getting “DONE”, “RENEGOTIATING” or “KEYUPDATE”? Read t
 
 ## Level 16 → 17 Solution
 ```bash
-bandit16@bandit:~$ nmap localhost -p 31000-32000
+bandit15@bandit:~$ nmap localhost -p 31000-32000
 Nmap things...
 PORT      STATE SERVICE
 31046/tcp open  unknown
@@ -14,11 +14,11 @@ PORT      STATE SERVICE
 31691/tcp open  unknown
 31790/tcp open  unknown
 31960/tcp open  unknown
-bandit16@bandit:~$ openssl s_client -port 31790 -quiet
+bandit15@bandit:~$ openssl s_client -port 31790 -quiet
 s_client things...
 (Level 15-16 Password) # <-- input here
 Correct!
-[RSA PRIVATE KEY]
+[RSA PRIVATE KEY] # <-- copy this
 ```
 
 ### Explanation
