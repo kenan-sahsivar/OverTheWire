@@ -33,8 +33,6 @@ user@machine:~$ ssh -i rsakey bandit26@bandit.labs.overthewire.org -p 2220
 ...
 :set shell=/bin/bash
 :sh
-bandit26@bandit:~$ cat /etc/bandit_pass/bandit26
-[REDACTED]
 ```
 
 
@@ -47,7 +45,7 @@ More on `more` (pun intended), it's used to display the contents of a file in re
 
 Once `more` is essentially paused, what can we do? Well by using the command `v` while in more, it'll open up an editor. The default editor is `vi`, and this is what `more` will be running. If you recall from last level, we can run commands in this editor. The first command we'll run is `:set shell=/bin/bash`, which will change the shell to `bash`, something we can actually use. Once we set up a shell we can use, we can simply run `:sh` to go back to the shell.
 
-Once we have access to the shell, simply check for the password in `/etc/bandit_pass/bandit26`. 
+Remember that you'll have to repeat this whenever you want to get into `bandit26`. From here stay logged in to get to `bandit27`.
 
 **Commands Learned:** `more`
 
