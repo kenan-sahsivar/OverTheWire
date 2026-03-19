@@ -9,7 +9,7 @@ From your local machine (not the OverTheWire machine!), clone the repository and
 user@machine:~$ git clone ssh://bandit27-git@bandit.labs.overthewire.org:2220/home/bandit27-git/repo
 Cloning into repo...
 backend: gibson-0
-bandit27-git@bandit.labs.overthewire.org's password: 
+bandit27-git@bandit.labs.overthewire.orgs password: 
 remote: Enumerating objects: 3, done.
 remote: Counting objects: 100% (3/3), done.
 remote: Compressing objects: 100% (2/2), done.
